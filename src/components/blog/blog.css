@@ -1,0 +1,61 @@
+@keyframes blogAnimation {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  80% {
+    transform: translateX(-5px);
+  }
+
+  90% {
+    transform: translateX(0px);
+  }
+
+  95% {
+    transform: translateX(-3px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+
+
+}
+
+.blog-page {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+}
+
+.play-now {
+  /*animation-name: blogAnimation;
+  animation-duration: 200ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: linear;*/
+  position: fixed;
+  bottom: 3rem;
+  font-size: 3rem;
+  background: white;
+  color: #2980b9;
+  border: solid 1px #2980b9;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.play-now:hover {
+  background: #2980b9;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

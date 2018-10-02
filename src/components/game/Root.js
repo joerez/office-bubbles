@@ -21,7 +21,7 @@ class App extends Component {
 
   escFunction(event){
     if(event.keyCode === 27) {
-      this.setState({start: true})
+        return this.setState({start: true})
     }
   }
 

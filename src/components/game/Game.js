@@ -16,12 +16,15 @@ class Game extends React.Component {
         y: window.innerHeight / 2
     }
 
-    const colors = ['#2185C5', '#2c3e50', '#c0392b']
-
+    const colors = ['#2185C5', '#2c3e50', '#f1c40f']
+    var mouseX;
+    var mouseY;
     // Event Listeners
     window.addEventListener('mousemove', event => {
         mouse.x = event.clientX
         mouse.y = event.clientY
+        mouseX = mouse.x;
+        mouseY = mouse.y;
     })
 
     window.addEventListener('resize', () => {
@@ -44,20 +47,33 @@ class Game extends React.Component {
         this.mass = 1;
         this.opacity = 0;
 
+
+        //hit space, reverse direction aand increase velocity.
+        window.addEventListener("keydown", event => {
+          if (event.keyCode != 32) {
+            return;
+          }
+          if (distance(mouse.x, mouse.y, this.x, this.y) < 120) {
+              this.velocity.x *= -1.3;
+              this.velocity.y *= -1.3;
+            }
+        })
+
+
         window.addEventListener('click', event => {
             mouse.x = event.clientX
-            mouse.y = event.clientY - 64
+            mouse.y = event.clientY
             let color = randomColor(colors);
             let radius = this.radius / 2
 
 
-            if (distance(mouse.x, mouse.y, this.x, this.y) < 100) {
-                this.velocity.x *= -1.3;
-                this.velocity.y *= -1.3;
-                // if (particles.length < 300) {
-                //   particles.push(new Particle(mouse.x, mouse.y, radius, this.color))
-                // }
-              }
+              if (distance(mouse.x, mouse.y, this.x, this.y) < 30) {
+                  if (particles.length < 300) {
+                    this.radius - 2;
+                    particles.push(new Particle(mouse.x, mouse.y, radius, this.color))
+                  }
+                }
+
 
         })
 

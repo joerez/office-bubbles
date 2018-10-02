@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 canvas {
@@ -8,12 +9,104 @@ canvas {
   background-position: center;
 }
 
+.dark-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0,0,0,.6);
+  z-index: 50;
+}
+
+@keyframes startAnimation {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  80% {
+    transform: translateX(5px);
+  }
+
+  90% {
+    transform: translateX(0px);
+  }
+
+  95% {
+    transform: translateX(3px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+
+
+}
+
 .start {
+  animation-name: startAnimation;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   margin: auto;
-  height: 25rem;
-  width: 30rem;
-  background: blue;
+  height: 33rem;
+  width: 37rem;
+  background: #ecf0f1;
+  color: #2c3e50;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.4);
+  padding: 1rem;
+  z-index: 100;
+}
+
+.close-btn {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  border-radius: 20px;
+  background: #27ae60;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 250ms;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #2ecc71;
+  color: white;
+}
+
+.start-footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+small {
+  font-size: .4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.design-notes-nav-btn {
+  margin-left: 4px;
+  background: white;
+  color: #2980b9;
+  border: solid 1px #2980b9;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.design-notes-nav-btn:hover {
+  background: #2980b9;
   color: white;
 }
