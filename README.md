@@ -1,3 +1,6 @@
+
+![Office Bubbles](https://image.ibb.co/dbczrz/Screen_Shot_2018_10_02_at_5_23_04_AM.png "Office Bubbles")
+
 # Welcome to office Bubbles!
 Check out the website here:
 https://www.officebubbles.io/
