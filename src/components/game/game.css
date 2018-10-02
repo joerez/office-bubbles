@@ -114,7 +114,7 @@ a {
 
 @media (max-width: 900px) and (min-width: 300px) {
   .start {
-    height: 85%;
+    height: 100%;
     width: 90%;
   }
 
