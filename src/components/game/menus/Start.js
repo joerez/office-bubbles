@@ -13,7 +13,7 @@ class Start extends Component {
           <p><b>Game Mechanics and Controls</b></p>
           <p>ESC: Bring up this menu.</p>
           <p>Hover over bubbles to increase their size and select them.</p>
-          <p>When bubbles are selected you can hit SpaceBar to change their direction and increase their velocity.</p>
+          <p>hit SpaceBar to When bubbles are hovered to change their direction and increase their velocity.</p>
           <p>Click a bubble to clone it.</p>
           <button onClick={this.props.closeFunction} className="close-btn" id="close-btn">Close Menu</button>
           <div className="start-footer">
