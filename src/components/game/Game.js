@@ -16,7 +16,7 @@ class Game extends React.Component {
         y: window.innerHeight / 2
     }
 
-    const colors = ['#2185C5', '#2c3e50', '#f1c40f']
+    const colors = ['#2185C5', '#2c3e50', '#c0392b']
     var mouseX;
     var mouseY;
     // Event Listeners
