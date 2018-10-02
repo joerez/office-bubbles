@@ -1,5 +1,5 @@
 
-![Office Bubbles](https://image.ibb.co/dbczrz/Screen_Shot_2018_10_02_at_5_23_04_AM.png "Office Bubbles")
+![Office Bubbles](https://image.ibb.co/e51Lye/Office_Bubbles.gif "Office Bubbles")
 
 # Welcome to office Bubbles!
 Check out the website here:
