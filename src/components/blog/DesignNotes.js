@@ -31,7 +31,7 @@ class DesignNotes extends Component {
               <li>An API to update this blog</li>
               <li>A blimp that floats around Salesforce tower with the url in big bold letters 24/7</li>
              </ul>
-             <p>This project was started around 12:20 AM. It's now 5:27 AM so I should probably sleep now. Combined with the earlier work I did to the bubbles on Skedge, I spent almost 9 straight hours to get this off the ground.</p>
+             <p>This project was started around 12:20 AM. It's now 5:54 AM so I should probably sleep now. Combined with the earlier work I did to the bubbles on Skedge, I spent almost 9 straight hours to get this off the ground.</p>
              <p>If for whatever reason I don't update this blog then feel free to check the <a target="_blank" href="https://github.com/joerez/office-bubbles">GitHub Repo</a> for more updates.</p>
              <hr />
           </div>
