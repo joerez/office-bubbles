@@ -8,7 +8,7 @@ class Start extends Component {
         <div onClick={this.props.closeFunction} className="dark-overlay"></div>
         <div className="start">
           <h1>Office Bubbles<small>Beta 1.0</small></h1>
-          <p>Office Bubbles is the game about nothing with no set goals or accomplishments that's designed to keep you mindlessly entertained while at your desk.</p>
+          <p>Office Bubbles is the game about nothing with no set goals or accomplishments. It's designed to keep you mindlessly entertained while at your desk.</p>
           <p>It might even sort of look like you're doing work.</p>
           <p><b>Game Mechanics and Controls</b></p>
           <p>ESC: Bring up this menu.</p>
