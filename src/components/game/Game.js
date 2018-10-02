@@ -74,7 +74,7 @@ class Game extends React.Component {
 
 
               if (distance(mouse.x, mouse.y, this.x, this.y) < 30) {
-                  if (particles.length < 300) {
+                  if (particles.length < 1000) {
                     this.radius - 2;
                     particles.push(new Particle(mouse.x, mouse.y, radius, this.color))
                   }
