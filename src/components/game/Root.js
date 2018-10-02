@@ -9,7 +9,22 @@ class App extends Component {
     super(props)
 
     this.state = {start: true}
+
+    this.escFunction = this.escFunction.bind(this);
+
   }
+
+  componentDidMount(){
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+
+
+  escFunction(event){
+    if(event.keyCode === 27) {
+      this.setState({start: true})
+    }
+  }
+
 
   renderStart() {
     if (this.state.start) {
