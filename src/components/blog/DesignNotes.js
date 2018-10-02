@@ -19,7 +19,7 @@ class DesignNotes extends Component {
              <p>Version 1 of Office Bubbles was taken directly from <a href="https://www.skedge.io">Skedge's</a> website.
               After importing the game over all I had to do was buy a domain and add some website features.</p>
              <p>In the end we were left with this!</p>
-             <img height="300px" src ="https://image.ibb.co/hyEWMz/Screen_Shot_2018_10_02_at_2_52_02_AM.png" />
+             <img alt="office bubbles" height="300px" src ="https://image.ibb.co/hyEWMz/Screen_Shot_2018_10_02_at_2_52_02_AM.png" />
              <p>I'm also very excited to continue development.
              Some plans for the future include the following:</p>
              <ul>

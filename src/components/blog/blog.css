@@ -59,3 +59,18 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 900px) and (min-width: 300px) {
+  .blog-page {
+    padding: 1rem;
+  }
+
+  .blog-page img {
+    height: 200px;
+  }
+
+  .play-now {
+    position: static;
+    margin-bottom: 1.3rem;
+  }
+}

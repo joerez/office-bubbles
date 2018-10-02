@@ -6,6 +6,7 @@ html, body {
 canvas {
   background: url('https://image.ibb.co/duQSde/Screen_Shot_2018_10_02_at_1_11_14_AM.png');
   background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -109,4 +110,20 @@ a {
 .design-notes-nav-btn:hover {
   background: #2980b9;
   color: white;
+}
+
+@media (max-width: 900px) and (min-width: 300px) {
+  .start {
+    height: 80%;
+    width: 90%;
+  }
+
+  .design-notes-nav-btn {
+    display: inline-block;
+  }
+
+  canvas {
+    background-size: cover;
+    background-position: left;
+  }
 }

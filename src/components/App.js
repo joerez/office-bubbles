@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-
-import Game from './game/Game';
 import Root from './game/Root';
 
 import DesignNotes from './blog/DesignNotes';
