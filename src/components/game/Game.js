@@ -34,6 +34,14 @@ class Game extends React.Component {
         init()
     })
 
+
+    document.addEventListener("keydown", function(event) {
+      if (event.keyCode == 82) {
+        init()
+      }
+    })
+
+
     // Objects
     function Particle(x, y, radius, color) {
         this.x = x

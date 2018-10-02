@@ -52,7 +52,7 @@ canvas {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   margin: auto;
-  height: 33rem;
+  height: 36rem;
   width: 37rem;
   background: #ecf0f1;
   color: #2c3e50;
@@ -114,7 +114,7 @@ a {
 
 @media (max-width: 900px) and (min-width: 300px) {
   .start {
-    height: 80%;
+    height: 85%;
     width: 90%;
   }
 
