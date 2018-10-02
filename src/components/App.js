@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 
-import Game from './game/game';
+import Game from './game/Game';
 import Root from './game/Root';
 
 class App extends Component {
