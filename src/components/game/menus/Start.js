@@ -12,7 +12,7 @@ class Start extends Component {
           <p>It might even sort of look like you're doing work.</p>
           <p><b>Game Mechanics and Controls</b></p>
           <p>ESC: Bring up this menu.</p>
-          <p>R: Reset the game</p>
+          <p>{/*<s>R: Reset the game</s>*/}</p>
           <p>Hover over bubbles to increase their size.</p>
           <p>Hit SpaceBar when bubbles are hovered over to change their direction and increase their speed.</p>
           <p>Click a bubble to clone it.</p>

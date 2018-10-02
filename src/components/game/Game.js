@@ -35,11 +35,6 @@ class Game extends React.Component {
     })
 
 
-    document.addEventListener("keydown", function(event) {
-      if (event.keyCode == 82) {
-        init()
-      }
-    })
 
 
     // Objects
@@ -59,7 +54,10 @@ class Game extends React.Component {
         //hit space, reverse direction aand increase velocity.
         window.addEventListener("keydown", event => {
           if (event.keyCode != 32) {
-            return;
+            if (event.keyCode == 82) {
+              return init()
+            }
+            return
           }
           if (distance(mouse.x, mouse.y, this.x, this.y) < 120) {
               this.velocity.x *= -1.3;
