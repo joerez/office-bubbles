@@ -7,12 +7,14 @@ class Start extends Component {
       <div>
         <div onClick={this.props.closeFunction} className="dark-overlay"></div>
         <div className="start">
-          <h1>Office Bubbles<small>Beta 1.0</small></h1>
+          <h1>Office Bubbles<small>Beta 1.01</small></h1>
           <p>Office Bubbles is a game about nothing and as such, it has no set goals or accomplishments. It's designed to keep you mindlessly entertained while at your desk.</p>
           <p>It might even sort of look like you're doing work.</p>
           <p><b>Game Mechanics and Controls</b></p>
           <p>ESC: Bring up this menu.</p>
           <p>{/*<s>R: Reset the game</s>*/}</p>
+          <p>I: Change background image</p>
+          <p>P: Turn on panic mode. Hide bubbles</p>
           <p>Hover over bubbles to increase their size.</p>
           <p>Hit SpaceBar when bubbles are hovered over to change their direction and increase their speed.</p>
           <p>Click a bubble to clone it.</p>

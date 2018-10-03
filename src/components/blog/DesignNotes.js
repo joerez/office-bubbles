@@ -8,10 +8,21 @@ class DesignNotes extends Component {
     return (
       <div>
         <div className="blog-page">
+        <div className="blog-entry">
+          <h1>Push The Buttons - Beta 1.01</h1>
+          <p><b>By Joe Rezendes - October 2nd, 2018</b></p>
+          <p><b>Patch Notes:</b></p>
+          <p>Users can now push <b>I</b> to change the background image to something more relevent to their careers.</p>
+          <p>Introducing Panic Mode - Push <b>P</b> to hide all the bubbles.</p>
+          <p>If you have any suggestions for background images then please <a href="mailto:contact@officebubbles.io">reach out!</a></p>
+          <hr />
+
+        </div>
+
+
           <div className="blog-entry">
-            <h1>A New Beginning</h1>
+            <h1>A New Beginning - Beta 1.0</h1>
             <p><b>By Joe Rezendes - October 2nd, 2018</b></p>
-            <hr />
             <p>I've wanted to create my own web based game for years. And a few hours before writing this, I decided to finaly start.</p>
             <p>For several months I began playing around with and developing interactive hero sections on homepages.
              I would spend more time than I'm proud of playing around on these.

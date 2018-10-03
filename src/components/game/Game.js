@@ -176,7 +176,7 @@ class Game extends React.Component {
 render() {
     return(
       <div>
-        <canvas ref="canvas" />
+        <canvas className="background" ref="canvas" />
       </div>
     )
   }
