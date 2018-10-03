@@ -22,7 +22,7 @@ canvas.background {
   width: 100%;
   top: 0; left: 0;
   background: url('https://image.ibb.co/duQSde/Screen_Shot_2018_10_02_at_1_11_14_AM.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 3;

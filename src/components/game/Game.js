@@ -34,8 +34,16 @@ class Game extends React.Component {
         init()
     })
 
-
-
+    //Press B for Big ball
+    window.addEventListener("keydown", event => {
+      let color = randomColor(colors);
+    if (event.keyCode == 66) {
+      let bigBall = new Particle(mouse.x, mouse.y, 50, color)
+      bigBall.velocity.x = (Math.random() -0.5) * 10
+      bigBall.velocity.y = (Math.random() -0.5) * 10
+      particles.push(bigBall)
+    }
+  })
 
     // Objects
     function Particle(x, y, radius, color) {
@@ -53,11 +61,11 @@ class Game extends React.Component {
 
         //hit space, reverse direction aand increase velocity.
         window.addEventListener("keydown", event => {
+
           if (event.keyCode != 32) {
             if (event.keyCode == 82) {
               return init()
             }
-            return
           }
           if (distance(mouse.x, mouse.y, this.x, this.y) < 120) {
               this.velocity.x *= -1.3;
