@@ -96,7 +96,7 @@ class Game extends React.Component {
 
             for (let i = 0; i < particles.length; i++) {
               if (this === particles[i]) continue;
-              if (distance(this.x, this.y, particles[i].x, particles[i].y) - this.radius * 2 < 0) {
+              if (distance(this.x, this.y, particles[i].x, particles[i].y) < this.radius + particles[i].radius) {
                 resolveCollision(this, particles[i]);
               }
             }

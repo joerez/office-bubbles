@@ -7,7 +7,22 @@ class DesignNotes extends Component {
   render() {
     return (
       <div>
+
+
         <div className="blog-page">
+
+        <div className="blog-entry">
+          <h1>Summon Big Bubble - Beta 1.02</h1>
+          <p><b>By Joe Rezendes - October 7th, 2018</b></p>
+          <p><b>Patch Notes:</b></p>
+          <p>Users can now press <b>B</b> to spawn in a big bubble!.</p>
+          <p>Fixed some pesky collision detection bugs.</p>
+          <hr />
+        </div>
+
+
+
+
         <div className="blog-entry">
           <h1>Push The Buttons - Beta 1.01</h1>
           <p><b>By Joe Rezendes - October 2nd, 2018</b></p>
